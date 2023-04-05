@@ -736,7 +736,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/app.scss */ \"./src/Landing Page/styles/app.scss\");\n/* harmony import */ var _assets_slide1_avif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/slide1.avif */ \"./src/Landing Page/assets/slide1.avif\");\n/* harmony import */ var _assets_slide2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/slide2.jpg */ \"./src/Landing Page/assets/slide2.jpg\");\n/* harmony import */ var _assets_slide3_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/slide3.jpg */ \"./src/Landing Page/assets/slide3.jpg\");\n\n\n\n\n\n\nconst firstSlideImg = document.getElementById(\"firstSlideImg\");\nconst secondSlideImg = document.getElementById(\"secondSlideImg\");\nconst thirdSlideImg = document.getElementById(\"thirdSlideImg\");\n\nfirstSlideImg.src = _assets_slide1_avif__WEBPACK_IMPORTED_MODULE_2__;\nsecondSlideImg.src = _assets_slide2_jpg__WEBPACK_IMPORTED_MODULE_3__;\nthirdSlideImg.src = _assets_slide3_jpg__WEBPACK_IMPORTED_MODULE_4__;\n\n\n//# sourceURL=webpack://hotel/./src/Landing_Page/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/app.scss */ \"./src/Landing Page/styles/app.scss\");\n/* harmony import */ var _assets_slide1_avif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/slide1.avif */ \"./src/Landing Page/assets/slide1.avif\");\n/* harmony import */ var _assets_slide2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/slide2.jpg */ \"./src/Landing Page/assets/slide2.jpg\");\n/* harmony import */ var _assets_slide3_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/slide3.jpg */ \"./src/Landing Page/assets/slide3.jpg\");\n/* harmony import */ var _assets_aboutUs_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/aboutUs.jpg */ \"./src/Landing Page/assets/aboutUs.jpg\");\n\n\n\n\n\n\n\nconst firstSlideImg = document.getElementById(\"firstSlideImg\");\nconst secondSlideImg = document.getElementById(\"secondSlideImg\");\nconst thirdSlideImg = document.getElementById(\"thirdSlideImg\");\nconst aboutUsSectionImg = document.getElementById(\"aboutUsImg\");\n\nfirstSlideImg.src = _assets_slide1_avif__WEBPACK_IMPORTED_MODULE_2__;\nsecondSlideImg.src = _assets_slide2_jpg__WEBPACK_IMPORTED_MODULE_3__;\nthirdSlideImg.src = _assets_slide3_jpg__WEBPACK_IMPORTED_MODULE_4__;\naboutUsSectionImg.src = _assets_aboutUs_jpg__WEBPACK_IMPORTED_MODULE_5__;\n\n\n//# sourceURL=webpack://hotel/./src/Landing_Page/js/app.js?");
 
 /***/ }),
 
@@ -897,6 +897,16 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /***/ ((module) => {
 
 eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 8 8%27%3e%3cpath fill=%27%23198754%27 d=%27M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z%27/%3e%3c/svg%3e\";\n\n//# sourceURL=webpack://hotel/data:image/svg+xml,%253csvg_xmlns=%2527http://www.w3.org/2000/svg%2527_viewBox=%25270_0_8_8%2527%253e%253cpath_fill=%2527%2523198754%2527_d=%2527M2.3_6.73.6_4.53c-.4-1.04.46-1.4_1.1-.8l1.1_1.4_3.4-3.8c.6-.63_1.6-.27_1.2.7l-4_4.6c-.43.5-.8.4-1.1.1z%2527/%253e%253c/svg%253e?");
+
+/***/ }),
+
+/***/ "./src/Landing Page/assets/aboutUs.jpg":
+/*!*********************************************!*\
+  !*** ./src/Landing Page/assets/aboutUs.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7cf87a727fcadfb10414.jpg\";\n\n//# sourceURL=webpack://hotel/./src/Landing_Page/assets/aboutUs.jpg?");
 
 /***/ }),
 
