@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  <script defer src="bundle.js"></script></head>
-  <body>
-    <div class="card text-white bg-warning mb-3" style="max-width: 18rem">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Warning card title</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+<script defer src="bundle.js"></script></head>
+
+<body>
+  <div class="w-75 mx-auto text-white bg-secondary">
+    <nav class="text-center bg-primary py-3">
+      <div class="list-unstyled d-flex justify-content-start">
+        <button type="button" class="btn btn-primary ms-4">About Us</button>
+        <button type="button" class="btn btn-primary ms-4">Rooms</button>
+        <button type="button" class="btn btn-primary ms-4">Location</button>
+        <button type="button" class="btn btn-primary ms-4">Quality</button>
+        <button type="button" class="btn btn-primary ms-4">Footer</button>
       </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner bg-dark" style="height: 32rem;">
+        <div class="carousel-item active w-100 h-100">
+          <img id="firstSlideImg" class="d-block w-100 h-100 opacity-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Hotel Suede</h1>
+            <h5>Welcome to Our Luxurious Hotel</h5>
+            <p>Indulge in comfort and elegance at our exquisite hotel.</p>
+          </div>
+        </div>
+        <div class="carousel-item w-100 h-100">
+          <img id="secondSlideImg" class="d-block w-100 h-100 opacity-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Hotel Suede</h1>
+            <h5>Unwind in Our Serene Accommodations</h5>
+            <p>Relax and rejuvenate in our beautifully appointed rooms and suites.</p>
+          </div>
+        </div>
+        <div class="carousel-item w-100 h-100">
+          <img id="thirdSlideImg" class="d-block w-100 h-100 opacity-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Hotel Suede</h1>
+            <h5>Experience the Finest Dining</h5>
+            <p>Savor delicious cuisine prepared by our world-class chefs at our signature restaurant.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </body>
+    <div style="height: 1000rem"></div>
+  </div>
+</body>
+
 </html>
