@@ -13,6 +13,8 @@ import familyRoomImg from "../assets/familyRoom.jpg";
 import honeymoonSuiteImg from "../assets/honeymoonSuite.jpg";
 import penthouseSuiteImg from "../assets/penthouseSuite.jpg";
 
+import locationImg from "../assets/locationImg.jpg";
+
 const firstSlideImg = document.getElementById("firstSlideImg");
 const secondSlideImg = document.getElementById("secondSlideImg");
 const thirdSlideImg = document.getElementById("thirdSlideImg");
@@ -26,6 +28,8 @@ const familyRoomImage = document.getElementById("familyRoomImg");
 const honeymoonSuiteImage = document.getElementById("honeymoonSuiteImg");
 const penthouseSuiteImage = document.getElementById("penthouseSuiteImg");
 
+const locationImage = document.getElementById("locationImg");
+
 firstSlideImg.src = firstImg;
 secondSlideImg.src = secondImg;
 thirdSlideImg.src = thirdImg;
@@ -38,3 +42,5 @@ executiveRommImage.src = executiveRoomImg;
 familyRoomImage.src = familyRoomImg;
 honeymoonSuiteImage.src = honeymoonSuiteImg;
 penthouseSuiteImage.src = penthouseSuiteImg;
+
+locationImage.src = locationImg;

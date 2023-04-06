@@ -9,7 +9,7 @@
 <script defer src="bundle.js"></script></head>
 
 <body>
-  <section class="w-75 mx-auto text-white bg-white">
+  <div class="content w-75 mx-auto text-white bg-white">
     <nav class="text-center bg-primary py-3">
       <div class="list-unstyled d-flex justify-content-start">
         <button type="button" class="btn btn-primary ms-4">About Us</button>
@@ -88,7 +88,6 @@
       </div>
     </section>
 
-
     <section class="rooms text-dark">
       <h2 class="text-center">Rooms</h2>
       <div class="d-flex flex-wrap justify-content-evenly">
@@ -162,7 +161,36 @@
         </div>
       </div>
     </section>
-    </div>
+
+    <section class="location container text-dark py-5">
+      <div class="row mb-5">
+        <h2 class="text-center">Location</h2>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center mb-3 rounded bg-primary text-white">Where are we?</h3>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col d-flex justify-content-center align-items-center">
+          <div class="card-body text-center text-dark w-50">
+            <h5 class="card-title">Address</h5>
+            <ul class="list-group list-group-flush w-100">
+              <li class="list-group-item my-3">1234 Elm Street</li>
+              <li class="list-group-item my-3">Anytown, CA 12345</li>
+              <li class="list-group-item my-3">United States</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col" style="height: 20rem; width: 16rem">
+          <img id="locationImg" class="w-100 h-100 rounded" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
